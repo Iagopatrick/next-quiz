@@ -14,7 +14,9 @@
     "incremental": true,
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "useDefineForClassFields": true,
+    "target": "es6"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
